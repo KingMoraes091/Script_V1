@@ -1,27 +1,27 @@
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "SpeedEzHub",
+    Title = "KingMoraes091_TEST_HUB",
     SubTitle = "by KingMoraes091",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Dark",
+    Theme = "Darker",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Principal", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Configurações", Icon = "settings" }),
-    Stats = Window:AddTab({ Title = "Estatísticas", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Jogador", Icon = "baby" }),
-    Teleport = Window:AddTab({ Title = "Teleporte", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Fruta", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Raça V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Loja", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Outros", Icon = "list-plus" }),
+    Main = Window:AddTab({ Title = "Chính", Icon = "home" }),
+    Setting = Window:AddTab({ Title = "Cài đặt", Icon = "settings" }),
+    Stats = Window:AddTab({ Title = "Chỉ số", Icon = "plus-circle" }),
+    Player = Window:AddTab({ Title = "Người chơi", Icon = "baby" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
+    Fruit = Window:AddTab({ Title = "Trái ác quỷ", Icon = "cherry" }),
+    Raid = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
+    Race = Window:AddTab({ Title = "Tộc V4", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Cửa hàng", Icon = "shopping-cart" }),
+	Misc = Window:AddTab({ Title = "Khác", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 
