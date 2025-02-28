@@ -13,7 +13,7 @@ local Window = Fluent:CreateWindow({
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Principal", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "COnfigurações", Icon = "settings" }),
+    Setting = Window:AddTab({ Title = "Configurações", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Estatísticas", Icon = "plus-circle" }),
     Player = Window:AddTab({ Title = "Jogador", Icon = "baby" }),
     Teleport = Window:AddTab({ Title = "Teleporte", Icon = "palmtree" }),
